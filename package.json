@@ -1,0 +1,30 @@
+{
+  "name": "mern-stack-first-app-api",
+  "version": "1.0.0",
+  "description": "Pro MERN Stack (2nd Edition) API",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon -e js,graphql -w . -w .env server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server-express": "^2.26.0",
+    "body-parser": "^1.20.0",
+    "dotenv": "^6.2.0",
+    "express": "^4.18.1",
+    "google-auth-library": "^2.0.2",
+    "graphql": "^0.13.2",
+    "mongodb": "^3.7.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.18.10",
+    "@babel/core": "^7.18.13",
+    "@babel/preset-env": "^7.18.10",
+    "@babel/preset-react": "^7.18.6",
+    "eslint": "^8.23.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0"
+  }
+}
